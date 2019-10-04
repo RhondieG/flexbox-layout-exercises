@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.box{
+    display: flex;
+    margin: 10px;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.list{
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    display:flex;
+    flex-direction: column;
+    background-color: plum;
+    width: 10%;
+      
+}
+ul{
+    list-style-type: none;
+}
+header{
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightblue;
+    height: 10%;
+
+    
+}
+.main{
+    display:flex;
+    flex-grow: 1;
+    
+    
+}
+.CONTENT{
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightpink;
+    width: 80%;
+
+}
+.AD{
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: plum;
+    width: 10%;
+}
+.FOOTER{
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+    background-color: lightblue;
+    height: 10%;
+    
+    
+}
